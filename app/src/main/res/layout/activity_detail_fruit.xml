@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent1"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -40,7 +41,7 @@
             android:layout_height="wrap_content"
             android:text="TERSEDIA"
             android:textSize="10sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:layout_weight="3"
             android:background="@drawable/fruit_label_avail"
@@ -114,6 +115,17 @@
         android:textSize="12dp"
         />
 
+
+    <Button
+        android:id="@+id/pesan_btn"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beli Sekarang"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="60dp"
+
+        />
 
 
 
